@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" fill="none">
+  <defs>
+    <linearGradient id="logoGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#7c3aed"/>
+      <stop offset="50%" stop-color="#a78bfa"/>
+      <stop offset="100%" stop-color="#c084fc"/>
+    </linearGradient>
+    <linearGradient id="logoBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#7c3aed"/>
+      <stop offset="100%" stop-color="#9333ea"/>
+    </linearGradient>
+  </defs>
+  <!-- Rounded square background -->
+  <rect width="120" height="120" rx="28" fill="url(#logoBg)"/>
+  <!-- Inner subtle glow -->
+  <rect x="4" y="4" width="112" height="112" rx="24" fill="none" stroke="white" stroke-opacity="0.1" stroke-width="1"/>
+  <!-- K letter -->
+  <path d="M30 30 L30 90 M30 60 L55 30 M30 60 L55 90" stroke="white" stroke-width="8" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+  <!-- J letter with stylish curve -->
+  <path d="M70 30 L70 75 Q70 90 57 90" stroke="white" stroke-width="8" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+  <!-- Decorative dot -->
+  <circle cx="90" cy="30" r="6" fill="white" fill-opacity="0.9"/>
+  <!-- Small accent line -->
+  <line x1="80" y1="90" x2="95" y2="90" stroke="white" stroke-opacity="0.5" stroke-width="3" stroke-linecap="round"/>
+</svg>
